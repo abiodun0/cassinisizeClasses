@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CC0D39A1CCA692400B3F27A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0D3991CCA692400B3F27A /* AppDelegate.swift */; };
+		5CC0D39C1CCA692400B3F27A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0D39B1CCA692400B3F27A /* ViewController.swift */; };
+		5CC0D39F1CCA692400B3F27A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC0D39D1CCA692400B3F27A /* Main.storyboard */; };
+		5CC0D3A11CCA692400B3F27A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC0D3A01CCA692400B3F27A /* Assets.xcassets */; };
+		5CC0D3A41CCA692400B3F27A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC0D3A21CCA692400B3F27A /* LaunchScreen.storyboard */; };
+		5CC0D3AF1CCA692400B3F27A /* CassiniScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0D3AE1CCA692400B3F27A /* CassiniScrollViewTests.swift */; };
+		5CC0D3BA1CCA692400B3F27A /* CassiniScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0D3B91CCA692400B3F27A /* CassiniScrollViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CC0D3AB1CCA692400B3F27A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CC0D38E1CCA692400B3F27A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC0D3951CCA692400B3F27A;
+			remoteInfo = CassiniScrollView;
+		};
+		5CC0D3B61CCA692400B3F27A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CC0D38E1CCA692400B3F27A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC0D3951CCA692400B3F27A;
+			remoteInfo = CassiniScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CC0D3961CCA692400B3F27A /* CassiniScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CassiniScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC0D3991CCA692400B3F27A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CC0D39B1CCA692400B3F27A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CC0D39E1CCA692400B3F27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CC0D3A01CCA692400B3F27A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CC0D3A31CCA692400B3F27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CC0D3A51CCA692400B3F27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC0D3AA1CCA692400B3F27A /* CassiniScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CassiniScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC0D3AE1CCA692400B3F27A /* CassiniScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniScrollViewTests.swift; sourceTree = "<group>"; };
+		5CC0D3B01CCA692400B3F27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC0D3B51CCA692400B3F27A /* CassiniScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CassiniScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC0D3B91CCA692400B3F27A /* CassiniScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniScrollViewUITests.swift; sourceTree = "<group>"; };
+		5CC0D3BB1CCA692400B3F27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CC0D3931CCA692400B3F27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC0D3A71CCA692400B3F27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC0D3B21CCA692400B3F27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CC0D38D1CCA692400B3F27A = {
+			isa = PBXGroup;
+			children = (
+				5CC0D3981CCA692400B3F27A /* CassiniScrollView */,
+				5CC0D3AD1CCA692400B3F27A /* CassiniScrollViewTests */,
+				5CC0D3B81CCA692400B3F27A /* CassiniScrollViewUITests */,
+				5CC0D3971CCA692400B3F27A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CC0D3971CCA692400B3F27A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0D3961CCA692400B3F27A /* CassiniScrollView.app */,
+				5CC0D3AA1CCA692400B3F27A /* CassiniScrollViewTests.xctest */,
+				5CC0D3B51CCA692400B3F27A /* CassiniScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CC0D3981CCA692400B3F27A /* CassiniScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0D3991CCA692400B3F27A /* AppDelegate.swift */,
+				5CC0D39B1CCA692400B3F27A /* ViewController.swift */,
+				5CC0D39D1CCA692400B3F27A /* Main.storyboard */,
+				5CC0D3A01CCA692400B3F27A /* Assets.xcassets */,
+				5CC0D3A21CCA692400B3F27A /* LaunchScreen.storyboard */,
+				5CC0D3A51CCA692400B3F27A /* Info.plist */,
+			);
+			path = CassiniScrollView;
+			sourceTree = "<group>";
+		};
+		5CC0D3AD1CCA692400B3F27A /* CassiniScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0D3AE1CCA692400B3F27A /* CassiniScrollViewTests.swift */,
+				5CC0D3B01CCA692400B3F27A /* Info.plist */,
+			);
+			path = CassiniScrollViewTests;
+			sourceTree = "<group>";
+		};
+		5CC0D3B81CCA692400B3F27A /* CassiniScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0D3B91CCA692400B3F27A /* CassiniScrollViewUITests.swift */,
+				5CC0D3BB1CCA692400B3F27A /* Info.plist */,
+			);
+			path = CassiniScrollViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CC0D3951CCA692400B3F27A /* CassiniScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC0D3BE1CCA692400B3F27A /* Build configuration list for PBXNativeTarget "CassiniScrollView" */;
+			buildPhases = (
+				5CC0D3921CCA692400B3F27A /* Sources */,
+				5CC0D3931CCA692400B3F27A /* Frameworks */,
+				5CC0D3941CCA692400B3F27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CassiniScrollView;
+			productName = CassiniScrollView;
+			productReference = 5CC0D3961CCA692400B3F27A /* CassiniScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CC0D3A91CCA692400B3F27A /* CassiniScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC0D3C11CCA692400B3F27A /* Build configuration list for PBXNativeTarget "CassiniScrollViewTests" */;
+			buildPhases = (
+				5CC0D3A61CCA692400B3F27A /* Sources */,
+				5CC0D3A71CCA692400B3F27A /* Frameworks */,
+				5CC0D3A81CCA692400B3F27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC0D3AC1CCA692400B3F27A /* PBXTargetDependency */,
+			);
+			name = CassiniScrollViewTests;
+			productName = CassiniScrollViewTests;
+			productReference = 5CC0D3AA1CCA692400B3F27A /* CassiniScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CC0D3B41CCA692400B3F27A /* CassiniScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC0D3C41CCA692400B3F27A /* Build configuration list for PBXNativeTarget "CassiniScrollViewUITests" */;
+			buildPhases = (
+				5CC0D3B11CCA692400B3F27A /* Sources */,
+				5CC0D3B21CCA692400B3F27A /* Frameworks */,
+				5CC0D3B31CCA692400B3F27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC0D3B71CCA692400B3F27A /* PBXTargetDependency */,
+			);
+			name = CassiniScrollViewUITests;
+			productName = CassiniScrollViewUITests;
+			productReference = 5CC0D3B51CCA692400B3F27A /* CassiniScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CC0D38E1CCA692400B3F27A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Abiodun Shuaib";
+				TargetAttributes = {
+					5CC0D3951CCA692400B3F27A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					5CC0D3A91CCA692400B3F27A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5CC0D3951CCA692400B3F27A;
+					};
+					5CC0D3B41CCA692400B3F27A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5CC0D3951CCA692400B3F27A;
+					};
+				};
+			};
+			buildConfigurationList = 5CC0D3911CCA692400B3F27A /* Build configuration list for PBXProject "CassiniScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CC0D38D1CCA692400B3F27A;
+			productRefGroup = 5CC0D3971CCA692400B3F27A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CC0D3951CCA692400B3F27A /* CassiniScrollView */,
+				5CC0D3A91CCA692400B3F27A /* CassiniScrollViewTests */,
+				5CC0D3B41CCA692400B3F27A /* CassiniScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CC0D3941CCA692400B3F27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC0D3A41CCA692400B3F27A /* LaunchScreen.storyboard in Resources */,
+				5CC0D3A11CCA692400B3F27A /* Assets.xcassets in Resources */,
+				5CC0D39F1CCA692400B3F27A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC0D3A81CCA692400B3F27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC0D3B31CCA692400B3F27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CC0D3921CCA692400B3F27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC0D39C1CCA692400B3F27A /* ViewController.swift in Sources */,
+				5CC0D39A1CCA692400B3F27A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC0D3A61CCA692400B3F27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC0D3AF1CCA692400B3F27A /* CassiniScrollViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC0D3B11CCA692400B3F27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC0D3BA1CCA692400B3F27A /* CassiniScrollViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CC0D3AC1CCA692400B3F27A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CC0D3951CCA692400B3F27A /* CassiniScrollView */;
+			targetProxy = 5CC0D3AB1CCA692400B3F27A /* PBXContainerItemProxy */;
+		};
+		5CC0D3B71CCA692400B3F27A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CC0D3951CCA692400B3F27A /* CassiniScrollView */;
+			targetProxy = 5CC0D3B61CCA692400B3F27A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CC0D39D1CCA692400B3F27A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC0D39E1CCA692400B3F27A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CC0D3A21CCA692400B3F27A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC0D3A31CCA692400B3F27A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CC0D3BC1CCA692400B3F27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CC0D3BD1CCA692400B3F27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CC0D3BF1CCA692400B3F27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CassiniScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.golden.CassiniScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CC0D3C01CCA692400B3F27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CassiniScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.golden.CassiniScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CC0D3C21CCA692400B3F27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CassiniScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.golden.CassiniScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CassiniScrollView.app/CassiniScrollView";
+			};
+			name = Debug;
+		};
+		5CC0D3C31CCA692400B3F27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CassiniScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.golden.CassiniScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CassiniScrollView.app/CassiniScrollView";
+			};
+			name = Release;
+		};
+		5CC0D3C51CCA692400B3F27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CassiniScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.golden.CassiniScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CassiniScrollView;
+			};
+			name = Debug;
+		};
+		5CC0D3C61CCA692400B3F27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CassiniScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.golden.CassiniScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CassiniScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CC0D3911CCA692400B3F27A /* Build configuration list for PBXProject "CassiniScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC0D3BC1CCA692400B3F27A /* Debug */,
+				5CC0D3BD1CCA692400B3F27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC0D3BE1CCA692400B3F27A /* Build configuration list for PBXNativeTarget "CassiniScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC0D3BF1CCA692400B3F27A /* Debug */,
+				5CC0D3C01CCA692400B3F27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CC0D3C11CCA692400B3F27A /* Build configuration list for PBXNativeTarget "CassiniScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC0D3C21CCA692400B3F27A /* Debug */,
+				5CC0D3C31CCA692400B3F27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CC0D3C41CCA692400B3F27A /* Build configuration list for PBXNativeTarget "CassiniScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC0D3C51CCA692400B3F27A /* Debug */,
+				5CC0D3C61CCA692400B3F27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CC0D38E1CCA692400B3F27A /* Project object */;
+}
