@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CA9D1EA1CCB420800E9A9A6 /* DemoUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9D1E91CCB420800E9A9A6 /* DemoUrl.swift */; };
 		5CC0D39A1CCA692400B3F27A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0D3991CCA692400B3F27A /* AppDelegate.swift */; };
 		5CC0D39C1CCA692400B3F27A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0D39B1CCA692400B3F27A /* ViewController.swift */; };
 		5CC0D39F1CCA692400B3F27A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC0D39D1CCA692400B3F27A /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		5CC0D3A41CCA692400B3F27A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC0D3A21CCA692400B3F27A /* LaunchScreen.storyboard */; };
 		5CC0D3AF1CCA692400B3F27A /* CassiniScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0D3AE1CCA692400B3F27A /* CassiniScrollViewTests.swift */; };
 		5CC0D3BA1CCA692400B3F27A /* CassiniScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0D3B91CCA692400B3F27A /* CassiniScrollViewUITests.swift */; };
+		5CC0D3C81CCA69F200B3F27A /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0D3C71CCA69F200B3F27A /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CA9D1E91CCB420800E9A9A6 /* DemoUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoUrl.swift; sourceTree = "<group>"; };
 		5CC0D3961CCA692400B3F27A /* CassiniScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CassiniScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC0D3991CCA692400B3F27A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CC0D39B1CCA692400B3F27A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		5CC0D3B51CCA692400B3F27A /* CassiniScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CassiniScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC0D3B91CCA692400B3F27A /* CassiniScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniScrollViewUITests.swift; sourceTree = "<group>"; };
 		5CC0D3BB1CCA692400B3F27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC0D3C71CCA69F200B3F27A /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				5CC0D3A01CCA692400B3F27A /* Assets.xcassets */,
 				5CC0D3A21CCA692400B3F27A /* LaunchScreen.storyboard */,
 				5CC0D3A51CCA692400B3F27A /* Info.plist */,
+				5CC0D3C71CCA69F200B3F27A /* ImageViewController.swift */,
+				5CA9D1E91CCB420800E9A9A6 /* DemoUrl.swift */,
 			);
 			path = CassiniScrollView;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA9D1EA1CCB420800E9A9A6 /* DemoUrl.swift in Sources */,
 				5CC0D39C1CCA692400B3F27A /* ViewController.swift in Sources */,
+				5CC0D3C81CCA69F200B3F27A /* ImageViewController.swift in Sources */,
 				5CC0D39A1CCA692400B3F27A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +490,7 @@
 				5CC0D3C01CCA692400B3F27A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CC0D3C11CCA692400B3F27A /* Build configuration list for PBXNativeTarget "CassiniScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				5CC0D3C31CCA692400B3F27A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CC0D3C41CCA692400B3F27A /* Build configuration list for PBXNativeTarget "CassiniScrollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				5CC0D3C61CCA692400B3F27A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
